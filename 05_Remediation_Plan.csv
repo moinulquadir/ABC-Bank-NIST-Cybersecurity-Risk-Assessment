@@ -1,0 +1,9 @@
+Finding ID,Risk ID,Finding,Remediation,Owner,Due,Priority,Status
+F-001,R-002,MFA gaps,Implement phishing-resistant MFA for privileged and remote access,IAM Manager,30 days,Critical,Open
+F-002,R-003,Patch SLA exceptions,Remediate critical patches and document approved exceptions,IT Operations,14 days,High,Open
+F-003,R-010,EDR coverage gap,Deploy EDR and monitor agent health,SOC Manager,21 days,High,Open
+F-004,R-001,Backup immutability gap,Implement immutable backup and perform restore test,Infrastructure Manager,45 days,Critical,Open
+F-005,R-007,Firewall documentation gaps,Review and remove expired/undocumented rules,Network Manager,30 days,Medium,Open
+F-006,R-005,Access review exceptions,Remove inappropriate access and improve recertification workflow,IAM Manager,15 days,High,Open
+F-007,R-009,SIEM coverage gap,Onboard critical systems and validate log parsing,SOC Manager,30 days,High,Open
+F-008,R-012,DR RTO miss,Improve recovery capacity and repeat DR exercise,Business Continuity,60 days,High,Open
