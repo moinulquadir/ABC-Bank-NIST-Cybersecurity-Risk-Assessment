@@ -1,0 +1,21 @@
+Function,Category,Purpose,ABC Bank Implementation
+Govern,GV.OC Organizational Context,Define mission stakeholders and risk context,Bank mission regulatory obligations critical services and risk appetite
+Govern,GV.RM Risk Management Strategy,Define risk objectives,Risk appetite tolerance escalation and acceptance criteria
+Govern,GV.RR Roles Responsibilities & Authorities,Assign cybersecurity responsibilities,Asset risk and control owners
+Govern,GV.SC Cybersecurity Supply Chain Risk Management,Manage third-party cyber risk,Vendor classification and assessments
+Identify,ID.AM Asset Management,Identify and manage assets,Inventory systems data users services and facilities
+Identify,ID.RA Risk Assessment,Identify analyze and prioritize cyber risks,Risk register likelihood impact and prioritization
+Identify,ID.IM Improvement,Improve based on lessons learned,Track audits incidents tests and remediation
+Protect,PR.AA Identity Management Authentication & Access Control,Protect access,MFA RBAC least privilege PAM and access reviews
+Protect,PR.AT Awareness & Training,Train personnel,Phishing simulations and role-based training
+Protect,PR.DS Data Security,Protect confidentiality integrity and availability,Encryption retention backups and access controls
+Protect,PR.PS Platform Security,Secure systems,Patching configuration EDR and application security
+Protect,PR.IR Technology Infrastructure Resilience,Provide resilient infrastructure,Segmentation redundancy backups and capacity
+Detect,DE.CM Continuous Monitoring,Monitor assets,SIEM EDR network and cloud monitoring
+Detect,DE.AE Adverse Event Analysis,Analyze events,Triage correlation and investigation
+Respond,RS.MA Incident Management,Manage incidents,Triage escalation containment and communications
+Respond,RS.AN Incident Analysis,Analyze incidents,Scope root cause indicators and impact
+Respond,RS.CO Incident Response Reporting & Communication,Coordinate communications,Internal executive regulatory and third-party reporting
+Respond,RS.MI Incident Mitigation,Contain and eradicate,Isolation removal and validation
+Recover,RC.RP Incident Recovery Plan Execution,Execute recovery,Restore services and validate objectives
+Recover,RC.CO Incident Recovery Communication,Communicate recovery,Stakeholder updates and post-recovery reporting
