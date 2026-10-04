@@ -1,0 +1,9 @@
+Test ID,Control Area,NIST CSF,Sample/Evidence,Result,Effectiveness,Finding,Priority
+T-001,MFA privileged accounts,PR.AA,"Sample 25 accounts; IAM/MFA logs",23/25 compliant,Partially Effective,2 accounts without MFA,High
+T-002,Endpoint patching,PR.PS,"Sample 30 endpoints; patch reports",27/30 compliant,Partially Effective,3 patch exceptions,High
+T-003,EDR deployment,PR.PS / DE.CM,Inventory reconciliation,98% coverage,Partially Effective,Remaining endpoints need EDR,High
+T-004,Backup isolation,PR.DS / RC.RP,Architecture review and restore test,Immutable copy missing for one critical system,Ineffective,Enable immutable backup and restore testing,Critical
+T-005,Firewall rule review,PR.PS,Sample firewall rules,92% documented,Partially Effective,Undocumented/expired rules,Medium
+T-006,Access recertification,PR.AA,Sample 40 users,37/40 approved,Partially Effective,3 inappropriate accesses,High
+T-007,SIEM log coverage,DE.CM,Critical asset inventory comparison,90% onboarded,Partially Effective,Remaining critical sources not onboarded,High
+T-008,DR recovery test,RC.RP,Exercise against RTO/RPO,RTO missed for one critical service,Partially Effective,Improve capacity and retest,High
