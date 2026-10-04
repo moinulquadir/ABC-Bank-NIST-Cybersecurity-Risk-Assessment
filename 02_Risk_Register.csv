@@ -1,0 +1,31 @@
+Risk ID,Asset,Threat,Vulnerability,Likelihood,Impact,Inherent Risk,Treatment,Residual Risk,Owner
+R-001,Customer Database,Ransomware,Weak backup isolation,Medium,High,High,Protect - isolated immutable backups and restore testing,Medium,Infrastructure Manager
+R-002,Online Banking Portal,Credential theft,MFA gaps,High,High,Critical,Protect - phishing-resistant MFA,Medium,IAM Manager
+R-003,Employee Laptops,Malware,Missing patches,Medium,High,High,Protect - patch management and EDR,Medium,IT Operations
+R-004,Employee Email System,Phishing/BEC,Weak filtering and awareness,High,Medium,High,Protect - email filtering and training,Medium,Messaging Manager
+R-005,Active Directory,Privilege escalation,Excessive privileges,High,High,Critical,Protect - least privilege and access reviews,Medium,IAM Manager
+R-006,Privileged Access Management,Privileged account compromise,Incomplete PAM coverage,Medium,High,High,Protect - PAM onboarding and monitoring,Low,IAM/Security
+R-007,Network Firewalls,Unauthorized access,Misconfigured rules,Medium,High,High,Protect - rule review and segmentation,Low,Network Manager
+R-008,VPN Gateway,Unauthorized remote access,Weak authentication,High,High,Critical,Protect - MFA and device posture,Medium,Network Manager
+R-009,SIEM Platform,Missed security event,Incomplete logging,Medium,High,High,Detect - centralized logging,Medium,SOC Manager
+R-010,EDR Platform,Endpoint compromise,Incomplete deployment,Medium,High,High,Detect - EDR coverage monitoring,Low,SOC Manager
+R-011,Backup & Recovery System,Data loss,Recovery not tested,Medium,High,High,Recover - quarterly restore testing,Low,Infrastructure Manager
+R-012,Disaster Recovery Site,Extended outage,Infrequent DR testing,Medium,High,High,Recover - DR exercises,Medium,Business Continuity
+R-013,ATM Network,ATM malware,Legacy systems and segmentation,Medium,High,High,Protect - segmentation and allowlisting,Medium,ATM Operations
+R-014,Payment Processing System,Payment fraud,Excessive privileges,Medium,High,High,Protect - segregation of duties and monitoring,Low,Payments Manager
+R-015,Vendor Management Platform,Supply-chain compromise,Weak third-party reviews,Medium,High,High,Govern - vendor risk assessments,Medium,Third Party Risk
+R-016,Vulnerability Management Platform,Known vulnerability exploited,Incomplete asset coverage,High,High,Critical,Identify - continuous scanning and inventory reconciliation,Medium,Vulnerability Lead
+R-017,Physical Data Center,Physical disruption,Single points of failure,Low,High,Medium,Protect - physical security and redundancy,Low,Data Center Manager
+R-018,Mobile Banking Application,API abuse,Weak API authorization,Medium,High,High,Protect - API gateway and authorization testing,Medium,Mobile Banking
+R-019,Core Banking System,Unauthorized access,Legacy components,Medium,High,High,Protect - segmentation and compensating controls,Medium,Core Banking
+R-020,Customer PII Repository,Data breach,Excessive access,Medium,High,High,Protect - RBAC and encryption,Low,Data Protection Officer
+R-021,Customer Database,SQL injection,Unvalidated input,Medium,High,High,Protect - secure SDLC and parameterized queries,Low,DBA/AppSec
+R-022,Online Banking Portal,DDoS,Insufficient resilience,Medium,High,High,Protect - DDoS protection,Low,Digital Banking
+R-023,Employee Laptops,Ransomware,Local admin rights,Medium,High,High,Protect - least privilege and EDR,Medium,IT Operations
+R-024,Employee Email System,Malicious attachment,Inadequate attachment controls,High,Medium,High,Detect - sandboxing and filtering,Medium,Messaging Manager
+R-025,Active Directory,Stale account abuse,Inactive accounts retained,Medium,High,High,Protect - joiner/mover/leaver controls,Low,IAM Manager
+R-026,SIEM Platform,Alert fatigue,Poor detection tuning,High,Medium,High,Detect - use-case tuning and metrics,Medium,SOC Manager
+R-027,Backup & Recovery System,Backup deletion,Excessive backup admin rights,Medium,High,High,Protect - separate admin roles and immutable copies,Low,Infrastructure Manager
+R-028,Vendor Management Platform,Unauthorized vendor access,Overprivileged vendor accounts,Medium,High,High,Protect - just-in-time access and reviews,Low,Third Party Risk
+R-029,Vulnerability Management Platform,False assurance,Stale inventory,Medium,Medium,Medium,Identify - asset reconciliation,Low,Vulnerability Lead
+R-030,Physical Data Center,Unauthorized physical access,Insufficient access review,Low,High,Medium,Protect - badge review and CCTV,Low,Data Center Manager
