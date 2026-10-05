@@ -1,0 +1,9 @@
+Audit Area,Test Step,Expected Evidence,Result,Finding
+Document Control,Verify current policies are approved and reviewed,Approval/version/review records,Pass,None
+Access Control,Sample user access and approvals,Access requests and approvals,Pass,None
+Privileged Access,Review privileged population and MFA,Privileged review and MFA evidence,Pass,None
+Vulnerability Management,Sample findings through remediation,Scan/ticket/rescan evidence,Pass,None
+Incident Management,Sample incident lifecycle,Incident record and lessons learned,Pass,Observation: improve closure consistency
+Backup,Inspect restore-test evidence,Restore record and result,Pass,None
+Supplier Security,Review critical supplier assessments,Assessment and approval records,Pass,None
+Internal Audit,Verify independence and follow-up,Audit report and CAPA evidence,Pass,Minor NC: one overdue CAPA
