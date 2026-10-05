@@ -25,3 +25,9 @@ This project demonstrates a practical risk-management lifecycle:
 
 ## Disclaimer
 ABC Bank is fictional. No real customer, employee, financial or confidential information is used. This repository is a cybersecurity portfolio project and does not represent work performed for a real bank.
+
+
+## Additional Portfolio Project — ISO/IEC 27001 Software Company
+A separate end-to-end ISO/IEC 27001:2022 ISMS implementation simulation is available in [ISO27001-Software-Company/](./ISO27001-Software-Company/).
+
+It demonstrates project initiation through closure for a fictional B2B SaaS company: ISMS scope, asset inventory, risk assessment, risk treatment, Statement of Applicability (93 Annex A controls), control implementation, evidence management, internal audit, CAPA, management review and certification readiness.
