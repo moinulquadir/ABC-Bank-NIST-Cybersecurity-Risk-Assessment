@@ -1,5 +1,0 @@
-Request ID,User,Department,System,Access Role,Business Justification,Manager Approval,System Owner Approval,Provisioned Date,Status
-AR-2026-001,A. Patel,Engineering,Source Code Repository,Developer,Assigned development project,Approved,Approved,2026-07-08,Closed
-AR-2026-002,J. Chen,Support,Customer Support Platform,Support Agent,Customer support duties,Approved,Approved,2026-07-09,Closed
-AR-2026-003,R. Smith,Finance,Finance SaaS,Read Only,Monthly reconciliation,Approved,Approved,2026-07-10,Closed
-AR-2026-004,L. Garcia,Engineering,AWS Production,Read Only,Incident troubleshooting,Approved,Approved,2026-07-11,Closed

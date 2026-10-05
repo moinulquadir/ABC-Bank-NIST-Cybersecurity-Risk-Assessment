@@ -1,4 +1,0 @@
-Review ID,Review Date,System,Reviewer,Population,Exceptions,Remediation Ticket,Result
-ACR-2026-Q3-01,2026-09-30,Identity Provider,IT Manager,146 users,2 dormant accounts,IT-4821,Completed
-ACR-2026-Q3-02,2026-09-30,Source Code Repository,VP Engineering,42 users,1 stale contractor,ENG-391,Completed
-ACR-2026-Q3-03,2026-09-30,AWS Production,Cloud Engineering Lead,18 privileged users,0,NA,Completed

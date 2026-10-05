@@ -1,5 +1,0 @@
-Supplier ID,Supplier,Service,Criticality,Data Access,Assessment Date,Security Evidence,Owner,Status
-SUP-001,AWS,Cloud infrastructure,Critical,Restricted,2026-07-15,Supplier security documentation and contract review,Cloud Engineering,Approved
-SUP-002,Identity Provider Vendor,Authentication,Critical,Confidential,2026-07-18,SOC/security documentation and questionnaire,IT Manager,Approved
-SUP-003,Customer Support SaaS,Support operations,High,Confidential,2026-07-21,Security questionnaire and DPA review,Support Director,Approved
-SUP-004,Code Hosting Provider,Source code,Critical,Confidential,2026-07-22,Security documentation and access review,VP Engineering,Approved
