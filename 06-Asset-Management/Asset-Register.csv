@@ -1,0 +1,13 @@
+Asset ID,Asset Name,Owner,Criticality,Classification,Location,Status,Review Frequency
+AST-001,SaaS Production AWS Account,Cloud Engineering,Critical,Restricted,AWS,Active,Quarterly
+AST-002,Customer Application Database,Platform Engineering,Critical,Restricted,AWS,Active,Quarterly
+AST-003,Customer File Storage,Platform Engineering,Critical,Restricted,AWS,Active,Quarterly
+AST-004,Identity Provider,IT Manager,Critical,Confidential,Cloud,Active,Quarterly
+AST-005,Source Code Repository,VP Engineering,High,Confidential,Cloud,Active,Quarterly
+AST-006,CI/CD Platform,DevOps Lead,High,Confidential,Cloud,Active,Quarterly
+AST-007,Security Monitoring Platform,Security Manager,High,Confidential,Cloud,Active,Quarterly
+AST-008,Employee Endpoint Fleet,IT Manager,High,Internal,Remote/Office,Active,Quarterly
+AST-009,Corporate Email,IT Manager,High,Confidential,Cloud,Active,Quarterly
+AST-010,Customer Support Platform,Support Director,High,Confidential,Cloud,Active,Quarterly
+AST-011,Backup Repository,Platform Engineering,Critical,Restricted,AWS,Active,Quarterly
+AST-012,Network Security Controls,IT Manager,High,Internal,Office/Cloud,Active,Quarterly
