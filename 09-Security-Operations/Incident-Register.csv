@@ -1,0 +1,4 @@
+Incident ID,Date,Type,Severity,Affected Asset,Summary,Containment,Status,Lessons Learned
+INC-2026-014,2026-08-19,Phishing,Medium,AST-009,Employee entered credentials on simulated malicious page,Account reset and session revocation,Closed,Improve phishing reporting reminder
+INC-2026-015,2026-08-27,Cloud configuration,High,AST-001,Test exposed storage configuration detected during review,Access restricted and configuration corrected,Closed,Add automated configuration guardrail
+INC-2026-016,2026-09-06,Suspicious login,Medium,AST-004,Impossible-travel alert for privileged user,Session revoked and MFA revalidated,Closed,Improve geo-anomaly tuning
