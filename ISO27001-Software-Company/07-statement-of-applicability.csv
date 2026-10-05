@@ -1,0 +1,94 @@
+Control ID,Annex A Control,Applicable,Implementation Status,Justification,Primary Owner
+A.5.1,Policies for information security,Yes,Implemented,Required to govern ISMS,ISMS Owner
+A.5.2,Information security roles and responsibilities,Yes,Implemented,Clear accountability required,ISMS Owner
+A.5.3,Segregation of duties,Yes,Implemented,Reduces conflicting privileges,Security Lead
+A.5.4,Management responsibilities,Yes,Implemented,Leadership oversight required,COO
+A.5.5,Contact with authorities,Yes,Implemented,Legal/regulatory communication,Legal Counsel
+A.5.6,Contact with special interest groups,Yes,Planned,Security intelligence benefit,Security Lead
+A.5.7,Threat intelligence,Yes,Planned,Supports risk decisions,Security Lead
+A.5.8,Information security in project management,Yes,Implemented,Security embedded in projects,PMO
+A.5.9,Inventory of information and other associated assets,Yes,Implemented,Asset accountability,ISMS Owner
+A.5.10,Acceptable use of information and associated assets,Yes,Implemented,Employee expectations,IT Manager
+A.5.11,Return of assets,Yes,Implemented,Leaver control,HR Director
+A.5.12,Classification of information,Yes,Implemented,Protect information by sensitivity,ISMS Owner
+A.5.13,Labelling of information,Yes,Planned,Supports handling,ISMS Owner
+A.5.14,Information transfer,Yes,Implemented,Protect customer/business information,Security Lead
+A.5.15,Access control,Yes,Implemented,Core security control,IT Manager
+A.5.16,Identity management,Yes,Implemented,Account lifecycle,IT Manager
+A.5.17,Authentication information,Yes,Implemented,Credential protection,IT Manager
+A.5.18,Access rights,Yes,Implemented,Least privilege,Security Lead
+A.5.19,Information security in supplier relationships,Yes,Implemented,Supplier risk,Procurement
+A.5.20,Addressing information security within supplier agreements,Yes,Implemented,Contractual requirements,Legal
+A.5.21,Managing information security in the ICT supply chain,Yes,Planned,Software/cloud dependencies,Procurement
+A.5.22,Monitoring review and change management of supplier services,Yes,Planned,Assurance over suppliers,Procurement
+A.5.23,Information security for use of cloud services,Yes,Implemented,AWS is material to service,Cloud Lead
+A.5.24,Information security incident management planning and preparation,Yes,Implemented,Response readiness,Security Lead
+A.5.25,Assessment and decision on information security events,Yes,Implemented,Consistent triage,SOC Lead
+A.5.26,Response to information security incidents,Yes,Implemented,Containment and recovery,SOC Lead
+A.5.27,Learning from information security incidents,Yes,Planned,Continual improvement,SOC Lead
+A.5.28,Collection of evidence,Yes,Implemented,Investigation support,SOC Lead
+A.5.29,Information security during disruption,Yes,Implemented,Business resilience,Operations
+A.5.30,ICT readiness for business continuity,Yes,Implemented,Recovery capability,Cloud Lead
+A.5.31,Legal statutory regulatory and contractual requirements,Yes,Implemented,Compliance obligations,Legal
+A.5.32,Intellectual property rights,Yes,Implemented,Protect software/IP,Legal
+A.5.33,Protection of records,Yes,Implemented,Record integrity/retention,Legal
+A.5.34,Privacy and protection of PII,Yes,Implemented,Employee/customer privacy,Privacy Counsel
+A.5.35,Independent review of information security,Yes,Planned,Independent assurance,Internal Audit
+A.5.36,Compliance with policies rules and standards for information security,Yes,Planned,Control adherence,ISMS Owner
+A.5.37,Documented operating procedures,Yes,Implemented,Repeatable operations,ISMS Owner
+A.6.1,Screening,Yes,Implemented,Personnel risk management,HR Director
+A.6.2,Terms and conditions of employment,Yes,Implemented,Security responsibilities,HR Director
+A.6.3,Information security awareness education and training,Yes,Implemented,Human risk reduction,HR Director
+A.6.4,Disciplinary process,Yes,Implemented,Policy enforcement,HR Director
+A.6.5,Responsibilities after termination or change of employment,Yes,Implemented,Reduce insider risk,HR Director
+A.6.6,Confidentiality or non-disclosure agreements,Yes,Implemented,Protect confidential information,Legal
+A.6.7,Remote working,Yes,Implemented,Remote workforce is material,IT Manager
+A.6.8,Information security event reporting,Yes,Implemented,Early reporting,Security Lead
+A.7.1,Physical security perimeters,Yes,Implemented,Office protection,Facilities
+A.7.2,Physical entry,Yes,Implemented,Office access,Facilities
+A.7.3,Securing offices rooms and facilities,Yes,Implemented,Protect work areas,Facilities
+A.7.4,Physical security monitoring,Yes,Planned,Office monitoring,Facilities
+A.7.5,Protecting against physical and environmental threats,Yes,Implemented,Continuity,Facilities
+A.7.6,Working in secure areas,Yes,Implemented,Restricted areas,Facilities
+A.7.7,Clear desk and clear screen,Yes,Implemented,Information exposure prevention,IT Manager
+A.7.8,Equipment siting and protection,Yes,Implemented,Endpoint protection,IT Manager
+A.7.9,Security of assets off-premises,Yes,Implemented,Remote work,IT Manager
+A.7.10,Storage media,Yes,Implemented,Media handling,IT Manager
+A.7.11,Supporting utilities,Yes,Implemented,Office resilience,Facilities
+A.7.12,Cabling security,Yes,Implemented,Office infrastructure,Facilities
+A.7.13,Equipment maintenance,Yes,Implemented,Availability and security,IT Manager
+A.7.14,Secure disposal or re-use of equipment,Yes,Implemented,Data destruction,IT Manager
+A.8.1,User endpoint devices,Yes,Implemented,Endpoint fleet is material,IT Manager
+A.8.2,Privileged access rights,Yes,Implemented,High-impact access,Security Lead
+A.8.3,Information access restriction,Yes,Implemented,Least privilege,Security Lead
+A.8.4,Access to source code,Yes,Implemented,Protect IP,Engineering Director
+A.8.5,Secure authentication,Yes,Implemented,MFA/strong authentication,IT Manager
+A.8.6,Capacity management,Yes,Planned,Availability requirement,Operations
+A.8.7,Protection against malware,Yes,Implemented,Endpoint/server protection,IT Manager
+A.8.8,Management of technical vulnerabilities,Yes,Implemented,Reduce exploitable weaknesses,Security Lead
+A.8.9,Configuration management,Yes,Planned,Reduce configuration drift,Cloud Lead
+A.8.10,Information deletion,Yes,Planned,Retention and disposal,ISMS Owner
+A.8.11,Data masking,Yes,Planned,Protect non-production data,Engineering
+A.8.12,Data leakage prevention,Yes,Planned,Reduce exfiltration risk,Security Lead
+A.8.13,Information backup,Yes,Implemented,Recovery,Cloud Lead
+A.8.14,Redundancy of information processing facilities,Yes,Implemented,Availability,Cloud Lead
+A.8.15,Logging,Yes,Implemented,Detection/forensics,Security Lead
+A.8.16,Monitoring activities,Yes,Implemented,Threat detection,SOC Lead
+A.8.17,Clock synchronization,Yes,Implemented,Accurate event correlation,Cloud Lead
+A.8.18,Use of privileged utility programs,Yes,Planned,Prevent misuse,Cloud Lead
+A.8.19,Installation of software on operational systems,Yes,Implemented,Software control,IT Manager
+A.8.20,Networks security,Yes,Implemented,Protect communications,Cloud Lead
+A.8.21,Security of network services,Yes,Implemented,Secure service design,Cloud Lead
+A.8.22,Segregation of networks,Yes,Implemented,Limit lateral movement,Cloud Lead
+A.8.23,Web filtering,Yes,Planned,Reduce malicious browsing,IT Manager
+A.8.24,Use of cryptography,Yes,Implemented,Protect data,Security Lead
+A.8.25,Secure development life cycle,Yes,Implemented,Secure engineering,Engineering Director
+A.8.26,Application security requirements,Yes,Implemented,Security requirements,Engineering
+A.8.27,Secure system architecture and engineering principles,Yes,Implemented,Security-by-design,Engineering
+A.8.28,Secure coding,Yes,Implemented,Reduce application vulnerabilities,Engineering
+A.8.29,Security testing in development and acceptance,Yes,Implemented,Release assurance,QA Lead
+A.8.30,Outsourced development,Yes,Planned,Third-party development risk,Engineering
+A.8.31,Separation of development test and production environments,Yes,Implemented,Reduce production risk,Engineering
+A.8.32,Change management,Yes,Implemented,Controlled changes,Engineering
+A.8.33,Test information,Yes,Planned,Prevent sensitive test data exposure,Engineering
+A.8.34,Protection of information systems during audit testing,Yes,Implemented,Protect production,Security Lead
