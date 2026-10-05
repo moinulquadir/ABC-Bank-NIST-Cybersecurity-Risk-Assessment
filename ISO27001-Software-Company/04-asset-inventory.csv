@@ -1,0 +1,21 @@
+Asset ID,Asset,Owner,Criticality,Information Classification,Location/Platform,Primary Security Concern
+A-001,Production SaaS application,VP Engineering,Critical,Confidential,AWS,Unauthorized access and service disruption
+A-002,Production PostgreSQL database,Cloud Lead,Critical,Restricted,AWS,Data exposure or corruption
+A-003,Customer object storage,Cloud Lead,Critical,Restricted,AWS,Public exposure or deletion
+A-004,GitHub source repositories,Engineering Director,High,Confidential,GitHub,Source-code theft
+A-005,CI/CD pipeline,DevOps Lead,Critical,Confidential,GitHub Actions/AWS,Build compromise
+A-006,AWS IAM identities,Cloud Security Lead,Critical,Restricted,AWS,Credential compromise
+A-007,Secrets management service,Cloud Security Lead,Critical,Restricted,AWS,Secret disclosure
+A-008,SIEM/security logging,Security Lead,High,Confidential,Cloud/SIEM,Detection gaps
+A-009,Endpoint fleet,IT Manager,High,Confidential,Corporate/Remote,Malware and credential theft
+A-010,Corporate identity provider,IT Manager,Critical,Restricted,Cloud SaaS,Account takeover
+A-011,Customer support platform,Customer Success VP,High,Confidential,SaaS,Customer-data leakage
+A-012,HRIS,HR Director,High,Restricted,SaaS,Employee-data exposure
+A-013,Contracts repository,Legal Counsel,Medium,Confidential,SaaS,Unauthorized disclosure
+A-014,Vulnerability scanner,Security Lead,High,Internal,Cloud,Incomplete coverage
+A-015,Penetration-test reports,Security Lead,High,Restricted,Secure repository,Security finding disclosure
+A-016,Backup platform,Cloud Lead,Critical,Restricted,AWS,Backup deletion/ransomware
+A-017,Disaster-recovery documentation,Operations Director,High,Confidential,Controlled repository,Recovery failure
+A-018,Vendor/security assessment records,Procurement Lead,Medium,Confidential,SaaS,Third-party risk blind spots
+A-019,Security policies and ISMS records,ISMS Owner,High,Internal,Document repository,Unauthorized changes
+A-020,Employee security-training records,HR Director,Medium,Internal,LMS,Privacy and retention risk
