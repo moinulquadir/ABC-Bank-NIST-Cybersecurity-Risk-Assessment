@@ -1,0 +1,3 @@
+Test ID,Release,Test Type,Scope,Finding Count,Critical/High Findings,Retest,Release Decision
+AST-2026-018,4.8,SAST and dependency scan,Application services,7,1,Passed,Approved after remediation
+AST-2026-019,4.9,DAST and configuration test,Public APIs,4,0,Passed,Approved
