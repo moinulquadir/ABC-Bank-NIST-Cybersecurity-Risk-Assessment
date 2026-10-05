@@ -1,0 +1,4 @@
+Change ID,Date,System,Description,Risk,Approver,Testing,Implementation Result,Status
+CHG-2026-077,2026-08-21,SaaS API,Deploy security patch,Medium,Engineering Manager,QA passed,Successful,Closed
+CHG-2026-081,2026-08-29,AWS IAM,Restrict unused administrative permission,High,Cloud Engineering Lead,Access test passed,Successful,Closed
+CHG-2026-089,2026-09-12,Monitoring,Add privileged-login alert,Medium,Security Manager,Detection test passed,Successful,Closed
