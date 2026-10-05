@@ -1,0 +1,4 @@
+CAPA ID,Source,Finding,Root Cause,Corrective Action,Owner,Due Date,Status,Effectiveness Test
+CAPA-001,NC-01,IR exercise actions not closed,Actions tracked in separate spreadsheet,Move actions into controlled CAPA register with reminders,Security Lead,2026-08-15,Closed,Sample next exercise actions and verify 100% assigned/closed
+CAPA-002,OBS-01,Inconsistent supplier reassessment,No centralized renewal calendar,Add supplier review dates and automated escalation,Procurement Lead,2026-08-31,Closed,Review supplier dashboard for overdue items
+CAPA-003,OBS-02,Asset inventory lag,Manual inventory update,Trigger asset record from MDM enrollment,IT Manager,2026-09-15,Closed,Sample 10 new devices and verify same-day inventory entry
