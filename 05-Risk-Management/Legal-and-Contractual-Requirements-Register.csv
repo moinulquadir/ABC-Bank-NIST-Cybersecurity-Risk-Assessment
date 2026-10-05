@@ -1,0 +1,7 @@
+Requirement ID,Source,Requirement,Owner,Applicability,Review Frequency,Status
+LR-001,Customer contracts,Security and confidentiality commitments,Legal/Compliance,Applicable,Quarterly,Active
+LR-002,Privacy obligations,Protection and lawful processing of personal information,Privacy/Legal,Applicable,Quarterly,Active
+LR-003,Employment agreements,Confidentiality and acceptable use requirements,HR,Applicable,Annual,Active
+LR-004,Cloud supplier contracts,Security incident and availability commitments,Vendor Management,Applicable,Annual,Active
+LR-005,Software licenses,Open-source and commercial license obligations,Engineering,Applicable,Quarterly,Active
+LR-006,Records requirements,Retention and legal hold obligations,Legal/Compliance,Applicable,Annual,Active
