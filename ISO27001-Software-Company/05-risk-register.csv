@@ -1,0 +1,21 @@
+Risk ID,Asset/Process,Threat,Vulnerability,Likelihood (1-5),Impact (1-5),Inherent Risk,Existing Controls,Treatment,Owner,Target Residual
+R-001,Production application,Ransomware,Insufficient isolation,4,5,20,EDR backups IAM,Treat,VP Engineering,8
+R-002,Customer database,Credential theft,Overprivileged access,4,5,20,MFA RBAC logging,Treat,Cloud Lead,6
+R-003,Object storage,External attacker,Incorrect bucket policy,3,5,15,Preventive policies monitoring,Treat,Cloud Lead,5
+R-004,GitHub,Insider/attacker,Excessive repository permissions,3,4,12,SAML MFA branch protection,Treat,Engineering Director,4
+R-005,CI/CD,Supply-chain attacker,Unpinned actions/secrets exposure,4,5,20,Code review secrets scanning,Treat,DevOps Lead,8
+R-006,Identity provider,Phishing,User credential compromise,4,5,20,MFA phishing training,Treat,IT Manager,8
+R-007,Endpoints,Malware,Delayed patching,4,4,16,MDM EDR patching,Treat,IT Manager,6
+R-008,SIEM,Detection failure,Incomplete log coverage,3,5,15,Central logging,Treat,Security Lead,6
+R-009,Backups,Ransomware,Recovery not tested,3,5,15,Immutable backup,Treat,Cloud Lead,5
+R-010,Customer support,Insider misuse,Excessive customer access,3,4,12,RBAC reviews,Treat,Customer Success VP,4
+R-011,HRIS,Data breach,Weak vendor assurance,3,4,12,Supplier review,Treat,HR Director,6
+R-012,Production APIs,API abuse,Insufficient rate limiting,3,4,12,WAF monitoring,Treat,Engineering Director,6
+R-013,Source code,Insider threat,No quarterly access recertification,3,4,12,RBAC,Treat,Engineering Director,4
+R-014,Vendor ecosystem,Supply-chain compromise,Incomplete security due diligence,3,4,12,Vendor questionnaire,Treat,Procurement Lead,6
+R-015,Incident response,Slow containment,Roles not exercised,3,5,15,IR plan,Treat,Security Lead,6
+R-016,DR capability,Cloud outage,Recovery dependencies undocumented,3,5,15,DR plan,Treat,Operations Director,6
+R-017,Policies,Governance failure,Stale documents,2,3,6,Document control,Treat,ISMS Owner,2
+R-018,Logging,Insider activity,Retention too short,2,4,8,Central logging,Treat,Security Lead,4
+R-019,Employee accounts,Offboarding failure,Manual HR/IT handoff,3,4,12,HR workflow,Treat,HR Director,4
+R-020,Security training,Human error,Inconsistent training completion,3,3,9,LMS reminders,Treat,HR Director,3
