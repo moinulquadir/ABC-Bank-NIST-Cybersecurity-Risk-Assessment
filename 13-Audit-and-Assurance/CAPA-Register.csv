@@ -1,0 +1,4 @@
+CAPA ID,Source,Finding,Root Cause,Action,Owner,Due Date,Effectiveness Check,Status
+CAPA-001,Internal Audit 2026,One corrective action exceeded target date,Owner did not receive automated reminder,Configure due-date reminders and weekly overdue review,ISMS Manager,2026-10-15,Verify zero overdue actions for next cycle,Open
+CAPA-002,Incident INC-2026-014,Phishing reporting could be faster,Employees uncertain about reporting channel,Reinforce reporting process in awareness training,Security Manager,2026-10-10,Measure reporting time in next exercise,Open
+CAPA-003,Risk Review,Cloud configuration monitoring needs stronger preventive control,Manual review dependency,Implement automated guardrail for restricted storage settings,Cloud Engineering,2026-10-30,Test guardrail and review exceptions,Open
